@@ -1,5 +1,7 @@
 # location-parser
 
+[![tests](https://github.com/searchsteward/location-parser/actions/workflows/tests.yml/badge.svg)](https://github.com/searchsteward/location-parser/actions/workflows/tests.yml) [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 **Parse the location strings that job boards actually emit.**
 
 The location normalizer from [SearchSteward](https://searchsteward.com)'s
@@ -26,8 +28,11 @@ This library handles all of them.
 ## Install
 
 ```bash
-pip install steward-location-parser   # or vendor location_parser.py — it's one file
+# One file, stdlib only — vendor it:
+curl -O https://raw.githubusercontent.com/searchsteward/location-parser/main/location_parser.py
 ```
+
+A PyPI package (`steward-location-parser`) is planned; the file above is the same code.
 
 ## Usage
 
